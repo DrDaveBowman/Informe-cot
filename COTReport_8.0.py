@@ -164,7 +164,7 @@ class COTAnalyzer:
 def main():
     # Load data
     current_directory = os.path.dirname(os.path.abspath(__file__))
-    cleaned_data = os.path.join(current_directory, 'Datos Informe COT.csv')
+    cleaned_data = 'Datos Informe COT.csv'
 
     cot_analyzer = COTAnalyzer(cleaned_data)
 
